@@ -6,13 +6,11 @@ public class Main {
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
         System.out.println("Config file loaded.");
-
         movie movie1 = context.getBean(movie.class);
-        System.out.println(movie1.getActor().getName())  ;
-        movie movie2 = context.getBean(movie.class);
-        System.out.println(movie2.getActor().getName());
-        System.out.println(movie2.getActor().getGender());
-        System.out.println(movie1==movie2);
+        System.out.println(movie1.getActor().getName());
+        System.out.println(movie1.getActor().getGender());
+        System.out.println(movie1.getActor().getAge());
+
 
 
     }
