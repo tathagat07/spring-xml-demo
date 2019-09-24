@@ -7,7 +7,10 @@ public class Main1 {
 
         XmlBeanFactory factory = new XmlBeanFactory (new ClassPathResource("beans.xml"));
         System.out.println("Config file loaded.");
+        actor obj1 = (actor) factory.getBean("actor");
         movie obj = (movie) factory.getBean("movie");
-        obj.displayDetails();
+        obj.displayDetails(obj1);
+        System.out.println("branch");
+        System.out.println("new branch");
     }
 }
