@@ -35,7 +35,7 @@
       <module name="task1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.stackroute.domain.*" />
+          <option name="PATTERN" value="com.stackroute.domain.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -48,7 +48,7 @@
       <module name="task1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.stackroute.domain.*" />
+          <option name="PATTERN" value="com.stackroute.domain.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
