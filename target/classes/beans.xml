@@ -19,7 +19,7 @@
     </bean>
 
 
-    <bean name="movie1,movieB" class="com.stackroute.domain.movie" scope="singleton" >
+    <bean name="movie1,movieB" class="com.stackroute.domain.movie" scope="prototype" >
         <constructor-arg index="0" ref="actor1" ></constructor-arg>
 
 
