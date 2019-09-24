@@ -3,6 +3,19 @@ package com.stackroute.domain;
 public class actor {
 
     private String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
     private String gender;
     private int age;
 
