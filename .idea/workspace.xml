@@ -29,13 +29,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main1">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.stackroute.domain.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.demo.Main" />
       <module name="task1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.stackroute.domain.*" />
+          <option name="PATTERN" value="com.stackroute.demo.Demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -44,11 +44,11 @@
       </method>
     </configuration>
     <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.stackroute.domain.Main1" />
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.demo.Main1" />
       <module name="task1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.stackroute.domain.*" />
+          <option name="PATTERN" value="com.stackroute.demo.Demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,8 +58,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main1" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main1" />
       </list>
     </recent_temporary>
   </component>
